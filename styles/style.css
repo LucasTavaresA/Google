@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    min-width: 400px;
+}
+body {
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: white;
+}
+main {
+    width: 100%;
+}
+nav {
+    position: relative;
+    top: 0;
+    width: 100%; height: 60px;
+}
+nav a {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+li {
+    display: inline;
+
+}
+.images {
+    margin-left: 15px;
+    margin-right: 26px;
+}
+.gmail, .images {
+    margin-top: 20px;
+}
+.apps {
+    margin: 8px 0 0 2px;
+    height: 24px;
+    width: auto;
+    fill: white;
+}
+.github {
+    margin: 13px;
+    block-size: 30px;
+}
+.divlogo {
+    text-align: center;
+}
+.divbar{
+    display: grid;
+    justify-items: center;
+    
+}
+.bar {
+    outline: none;
+    border: 0.1px solid rgba(199, 199, 199, 0.541);
+    background-color: #202124;
+    border-radius: 25px;
+    height: 42px;
+    width: 542px;
+    padding-left: 40px;
+
+}
+.bar:hover {
+    background-color: #323232;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.lupa {
+    position: relative;
+    right: 270px; top: 32px;
+    height: 20px;
+    width: auto;
+}
+.mic {
+    position: relative;
+    left: 250px; top: 55px;
+    width: 24px;
+    height: 24px;
+}
+.buttons {
+    text-align: center;
+}
+form .buttons button {
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin-top: 30px;
+    background-color: #323232;
+    border: 0.1px solid transparent;
+}
+button.search {
+    margin-right: 10px;
+}
+div.buttons button:hover {
+    border: 1px solid rgba(199, 199, 199, 0.541);
+}
+.lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 46px;
+    justify-content: space-between;
+    background-color: #181818;
+    color: rgb(156, 156, 156);
+}
+footer a {
+    font-size: 14px;
+}
+footer div.brasil {
+    padding: 15px 30px;
+    font-size: 15px;
+    display: flex;
+    background-color: #181818;
+    position: fixed;
+    bottom: 47px;
+    width: 100%;
+}
+footer ul.left {
+    display: flex;
+    flex-direction: row;
+    margin: 0; padding: 15px 0 0 30px;
+}
+footer ul.right {
+    display: flex;
+    flex-direction: row;
+    margin: 0; padding: 15px 0 0 15px;
+}
+footer ul.left li {
+    padding-right: 30px;
+}
+footer ul.right li {
+    padding-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+a:hover {
+    text-decoration: underline;
+}
